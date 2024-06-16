@@ -22,7 +22,7 @@ Welcome to SecureLogin, your **modern authentication interface** built with Reac
 To start the development server and run SecureLogin:
 
 ```bash
-npm start![Uploading WhatsApp Image 2024-06-16 at 14.12.36_b43dd1f8.jpg…]()
+npm start!()
 
 ```
 
