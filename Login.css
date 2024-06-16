@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  display: flex;
+  margin-top: 50px;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box{
+  width: 100%;
+  padding: 20px;
+}
+.login-container {
+  background: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+
+  border-radius: 10px;
+  box-shadow: 
+    0px 0px 0px 15px rgba(0, 0, 0, 0.1), 
+    0px 0px 0px 20px rgba(255, 85, 85, 0.1), 
+    0px 0px 0px 30px rgba(0, 0, 0, 0.05), 
+    0px 0px 0px 25px rgba(255, 85, 85, 0.05), 
+    0px 0px 0px 40px rgba(0, 0, 0, 0.03), 
+    0px 0px 0px 50px rgba(255, 85, 85, 0.03);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 13px;
+  color: rgba(255, 85, 85, 0.05);
+  font-family: "Lora", serif;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;  color: #555;
+
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="checkbox"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+}
+
+.form-group label[for="remember-me"] {
+  display: inline-block;
+  margin-left: 5px;
+}
+h2 {
+  margin-bottom: 0px;
+  color: #333;
+  font-size: 35px;
+  justify-content: center;
+  text-align: center;
+  
+  font-family: "Tiny5", sans-serif;
+}
+
+
+button[type="button"] {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  background: rgba(255, 85, 85, 0.05);
+  border: 7px solid ;
+
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+button[type="button"]:hover {
+  background: #000000;
+  color: wheat;
+}
