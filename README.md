@@ -22,8 +22,10 @@ Welcome to SecureLogin, your **modern authentication interface** built with Reac
 To start the development server and run SecureLogin:
 
 ```bash
-npm start
+npm start![Uploading WhatsApp Image 2024-06-16 at 14.12.36_b43dd1f8.jpg…]()
+
 ```
+
 
 This command launches the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application. The page will automatically reload when you make changes. Additionally, any lint errors will be displayed in the console.
 
